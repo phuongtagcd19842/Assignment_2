@@ -3,7 +3,7 @@
     <link rel="stylesheet" href ="styles.css">
     <title> ATN Shop </title>
     <marquee bgcolor="gray" 
-             scrollamount="6" 
+             scrollamount="12" 
              direction="left" 
              onmouseover="this.stop();" 
              onmouseout="this.start();">
