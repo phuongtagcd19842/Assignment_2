@@ -74,9 +74,9 @@
 			}
 	    
 		?> 
-		    </center>
 		    <form action="https://asm-atn-shop.herokuapp.com/add1.php">
     				<input type="submit" value="Add" />
 			</form>
+		   </center>
 	</body>
 </html>
