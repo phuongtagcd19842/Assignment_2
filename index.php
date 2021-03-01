@@ -7,11 +7,13 @@
              direction="left" 
              onmouseover="this.stop();" 
              onmouseout="this.start();">
+	    <center>
 		<?php
 		$date = getdate();
 			echo "<hr>";
 			echo "Today is: ".$date['weekday']."--".$date['mday']."/".$date['mon']."/".$date['year']."--".$date['hours'].":".$date['minutes'].":".$date['seconds'];
 		?>
+	  </center>
     </marquee>
     <ul> 
         <li> <a href="">Main Page</a></li>
