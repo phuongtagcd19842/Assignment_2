@@ -7,14 +7,10 @@
              direction="left" 
              onmouseover="this.stop();" 
              onmouseout="this.start();">
-        [2/27/2021]: Remember to check the database everyday!
 		<?php
 		$date = getdate();
-			echo "<pre>";
-			print_r($date);
-			echo "</pre>";
 			echo "<hr>";
-			echo "Today is: ".$date['weekday']."Day: ".$date['mday']."Month: ".$date['mon']."Year: ".$date['year']."Hours: ".$date['hours']."Minutes: ".$date['minutes']."Seconds: ".$date['seconds'];
+			echo "Today is: ".$date['weekday']." Day: ".$date['mday']." Month: ".$date['mon']." Year: ".$date['year']." Hours: ".$date['hours']." Minutes: ".$date['minutes']." Seconds: ".$date['seconds'];
 		?>
     </marquee>
     <ul> 
