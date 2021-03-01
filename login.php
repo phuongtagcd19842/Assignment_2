@@ -33,7 +33,7 @@
 		<form style="color:black;" align="center" method="POST">
 		Username:<input type="text" name="userid"> <br><br>
 		Password:&nbsp;<input type="password" name="password"> <br><br>
-	<input type="submit" value="login">
+	<input type="submit" value="LOGIN">
     </form>
     </div>
 	<?php
