@@ -16,7 +16,8 @@
 	  </center>
     </marquee>
     <ul>
-        <li> <a href="">VIEW DATABASE</a> </li>
+        <li> <a href="datashop2.php">VIEW DATABASE</a> </li>
+	    <li> <a href="shop2.php">EDIT DATABASE</a> </li>
 	    <li> <a href="login.php">LOG OUT</a> </li>
     </ul>
   </head>
@@ -28,6 +29,7 @@
           background-size: 100%100%;
         } 
       </style>
+	    <center>
 	    <table border="2">
 		    <tr>
 			    <th>Product ID</th>
@@ -37,7 +39,7 @@
 			    <th colspan="2" align="center">Operation</th>
 		    </tr>
 		<?php 
-			echo '<p>ATN Shop </p>'; 
+			echo '<p>ATN SHOP 2 </p>'; 
 			$host_heroku = "ec2-54-146-73-98.compute-1.amazonaws.com";
 			$db_heroku = "d13da88n45ouc0";
 			$user_heroku = "vzhpjzlpafmtft";
@@ -72,8 +74,10 @@
 			}
 	    
 		?> 
+		    
 		    <form action="https://asm-atn-shop.herokuapp.com/add2.php">
     				<input type="submit" value="Add" />
 			</form>
+		    </center>
 	</body>
 </html>
