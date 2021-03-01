@@ -28,6 +28,7 @@
           background-size: 100%100%;
         } 
     </style>
+	<center>
 <table border="2">
 		    <tr>
 			    <th>Product ID</th>
@@ -68,5 +69,6 @@
 			}
 	    
 		?>
+	</center>
 	</body>
 </html>
