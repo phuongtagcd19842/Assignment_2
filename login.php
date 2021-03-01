@@ -31,8 +31,8 @@
       <div>
 	      <h2 style="color:black;" align="center">LOGIN SESSION</h2>
 		<form style="color:black;" align="center" method="POST">
-		Username:<input type="text" name="userid"> <br>
-		Password:&nbsp;<input type="password" name="password"> <br>
+		Username:<input type="text" name="userid"> <br><br><br>
+		Password:&nbsp;<input type="password" name="password"> <br><br><br>
 	<input type="submit" value="login">
     </form>
     </div>
