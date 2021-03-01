@@ -23,7 +23,7 @@
     <body>
       <style>
         body {
-          background-image: url('background1.jpg');
+          background-image: url('background.jpg');
           background-attachment: fixed;
           background-size: 100%100%;
         } 
