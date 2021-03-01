@@ -24,7 +24,7 @@
     <body>
       <style>
         body {
-          background-image: url('background2.jpg');
+          background-image: url('background2.png');
           background-attachment: fixed;
           background-size: 100%100%;
         } 
