@@ -10,7 +10,7 @@
 		<?php
 		$date = getdate();
 			echo "<hr>";
-			echo "Today is: ".$date['weekday']." Day: ".$date['mday']." Month: ".$date['mon']." Year: ".$date['year']." Hours: ".$date['hours']." Minutes: ".$date['minutes']." Seconds: ".$date['seconds'];
+			echo "Today is: ".$date['weekday']."  ".$date['mday']."/".$date['mon']."/".$date['year']."-".$date['hours'].":".$date['minutes'].":".$date['seconds'];
 		?>
     </marquee>
     <ul> 
