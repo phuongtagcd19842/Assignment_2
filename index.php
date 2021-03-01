@@ -16,8 +16,8 @@
 	  </center>
     </marquee>
     <ul> 
-        <li> <a href="">Main Page</a></li>
-        <li> <a href="login.php">Login </a></li>        
+        <li> <a href="">HOMEPAGE</a></li>
+        <li> <a href="login.php">LOGIN </a></li>        
     </ul>
   </head>
     <body>
