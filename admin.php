@@ -36,7 +36,7 @@
 			    <th>Quantity</th>
 		    </tr>
 		<?php 
-			echo '<p>ATN Shop 1</p>'; 
+			echo '<p>ATN SHOP 1</p>'; 
 			$host_heroku = "ec2-54-146-73-98.compute-1.amazonaws.com";
 			$db_heroku = "d13da88n45ouc0";
 			$user_heroku = "vzhpjzlpafmtft";
@@ -76,7 +76,7 @@
 			    <th>Quantity</th>
 		    </tr>
 		<?php 
-			echo '<p>ATN Shop 2</p>'; 
+			echo '<p>ATN SHOP 2</p>'; 
 			$host_heroku = "ec2-54-146-73-98.compute-1.amazonaws.com";
 			$db_heroku = "d13da88n45ouc0";
 			$user_heroku = "vzhpjzlpafmtft";
