@@ -9,7 +9,8 @@
              onmouseout="this.start();">
 	    <center>
 		<?php
-		$date = getdate();
+		    date_default_timezone_set('Asia/Ho_Chi_Minh');
+			$date = getdate();
 			echo "<hr>";
 			echo "Today is: ".$date['weekday']."--".$date['mday']."/".$date['mon']."/".$date['year']."--".$date['hours'].":".$date['minutes'].":".$date['seconds'];
 		?>
